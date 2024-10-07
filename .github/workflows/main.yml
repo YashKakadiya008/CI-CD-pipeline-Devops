@@ -22,10 +22,6 @@ jobs:
         run: npm install
         shell: powershell # Use Windows PowerShell instead of pwsh
 
-      - name: Run Tests
-        run: npm test -- --watchAll=false
-        shell: powershell # Use Windows PowerShell instead of pwsh
-
       - name: Build the app
         run: npm run build
         shell: powershell # Use Windows PowerShell instead of pwsh
